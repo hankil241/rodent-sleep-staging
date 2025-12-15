@@ -20,6 +20,7 @@ Models supported:
 ├── run_cross_subject.py   # experiment entry point
 ├── run_within_subject.py
 └── Model.py               # model definitions (not included; see original papers)
+```
 
 ```bash
 python run_cross_subject.py
