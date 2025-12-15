@@ -10,6 +10,8 @@ Models supported:
 - CNN + BiLSTM (DeepSleepNet-style)
 
 ## Structure
+
+```text
 ├── cross_subject.py        # LOSO / cross-subject evaluation
 ├── within_subject.py      # within-subject evaluation
 ├── mixture_zscore.py      # mixture z-scoring
@@ -17,7 +19,7 @@ Models supported:
 ├── device_utils.py        # CUDA / device selection
 ├── run_cross_subject.py   # experiment entry point
 ├── run_within_subject.py
-└── Model.py               # model definitions (not include, search original published paper for code)
+└── Model.py               # model definitions (not included; see original papers)
 
 ```bash
 python run_cross_subject.py
