@@ -5,9 +5,9 @@ This repository contains PyTorch implementations for:
 - Within-subject sleep stage classification
 
 Models supported:
-- 1D-CNN
-- 2D-CNN (SSANN)
-- CNN + BiLSTM (DeepSleepNet-style)
+- 1D-CNN (Conventional Deep 1D-CNN)
+- 2D-CNN (AccuSleep-SSANN)
+- CNN + BiLSTM (DeepSleepNet)
 
 ## Structure
 
