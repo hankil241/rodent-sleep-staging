@@ -19,7 +19,7 @@ Models supported:
 ├── device_utils.py        # CUDA / device selection
 ├── run_cross_subject.py   # experiment entry point
 ├── run_within_subject.py
-└── Model.py               # model definitions (not included; see original papers)
+└── Model.py               # model definitions (not included)
 ```
 
 ```bash
