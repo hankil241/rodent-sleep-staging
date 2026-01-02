@@ -4,10 +4,11 @@ This repository contains PyTorch implementations for:
 - Cross-subject sleep stage classification
 - Within-subject sleep stage classification
 
-Models supported:
-- 1D-CNN (Conventional Deep 1D-CNN)
-- 2D-CNN (AccuSleep-SSANN)
-- CNN + BiLSTM (DeepSleepNet)
+Model architectures implemented in this file are based on previously
+published studies, including:
+- 1D-CNN (Conventional Deep 1D-CNN): Yildirim et al., 2019, Int. J. Environ. Res. Public Health
+- 2D-CNN (AccuSleep-SSANN): Barger et al., 2019, PLoS ONE
+- CNN + BiLSTM (DeepSleepNet): Supratak et al., 2017, IEEE TNSRE
 
 ## Structure
 
