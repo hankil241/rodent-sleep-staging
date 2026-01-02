@@ -21,7 +21,37 @@ published studies, including:
 ├── run_cross_subject.py   # experiment entry point
 ├── run_within_subject.py
 └── Model.py               # model definitions
+└── Result_metrics/
+  └── within/ # Saved evaluation metrics (pickle format)
+  └── cross/ # Saved evaluation metrics (pickle format)
 ```
+
+## Data Requirements
+
+Depending on the selected model, the following inputs are required.
+Data used in this study is available here: https://osf.io/py5eb/ (Barger et al., AccuSleep)
+
+### 1D-CNN and CNN + BiLSTM
+- Epoched EEG data: `epoched_eeg_data.npy`
+- Epoched EMG data: `epoched_emg_data.npy`
+- Sleep stage labels: `label_data.npy`
+
+### 2D-CNN (SSANN)
+- Epoched spectrogram data: `epoched_spectrogram_data.npy`
+- Sleep stage labels: `label_data.npy`
+
+All input files are expected to be NumPy `.npy` arrays. Labels are internally converted to zero-based indexing.
+
+---
+
+## Running Experiments
+
+### Within-Subject Evaluation (similar for Cross-Subject)
+
+Select the model type in `run_within_subject.py`:
+
+```python
+model_type = "1D-CNN"  # '1D-CNN', '2D-CNN', 'CNN+BiLSTM'
 
 ```bash
 python run_cross_subject.py
