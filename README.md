@@ -53,7 +53,6 @@ Select the model type in `run_within_subject.py`:
 ```python
 model_type = "1D-CNN"  # '1D-CNN', '2D-CNN', 'CNN+BiLSTM'
 
-```bash
 python run_cross_subject.py
 python run_within_subject.py
 ```
