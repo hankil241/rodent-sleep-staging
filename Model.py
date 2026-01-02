@@ -1,3 +1,16 @@
+"""
+Model architecture definitions used for comparative experiments.
+
+DeepSleepNet components:
+- Portions of this file are adapted from the official DeepSleepNet
+  implementation by Supratak et al. (2017).
+- Original code licensed under the Apache License, Version 2.0.
+
+Other models:
+- Remaining architectures are independent reimplementations written
+  by the authors based on published descriptions.
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
