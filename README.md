@@ -56,3 +56,9 @@ model_type = "1D-CNN"  # '1D-CNN', '2D-CNN', 'CNN+BiLSTM'
 python run_cross_subject.py
 python run_within_subject.py
 ```
+
+## License
+
+This repository is licensed under the Apache License, Version 2.0.
+Portions of the code are adapted from DeepSleepNet and are distributed
+in compliance with the original Apache-2.0 license.
